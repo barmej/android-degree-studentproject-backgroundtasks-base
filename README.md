@@ -12,3 +12,19 @@
 # الهدف من هذا المشروع ؟
 في الدروس الأخيرة تعلمت كيفية استخدام المفاهيم المتعلقة بمهام الخلفية لجعل تطبيق الطقس يقوم بتحديث البيانات تلقائيا في أوقات معينة. في هذا المشروع سوف تتدرب على هذه المهارات مع التركيز على مفاهيم مهام الخلفية مثل WorkManager و Notifications وغيرها.
 
+
+# متطلبات المشروع 
+
+يجب أن يحتوي المشروع على المزايا التالية:
+* صفحة رئيسية تعرض كم مرة تم الوصول إلى الحد وتم تنبيه المستخدم اليوم.
+* حفظ بيانات المستخدم اليومية باستخدام Room وعرضها في واجهة مختلفة. في هذه الواجهة يتم استخدام مكون يعرف بـ [Spinner](https://developer.android.com/guide/topics/ui/controls/spinner) يمكنك التعرف عليه وعلى كيفية استخدامه من خلال 
+[الرابط](https://developer.android.com/guide/topics/ui/controls/spinner) 
+* تنبيه المستخدم عندما يصل إلى الحد عن طريق إظهار تنبيه باستخدام مفهوم Notification و Notification channel.
+* استخدام مفهوم WorkManager مع [Work constraints](https://developer.android.com/topic/libraries/architecture/workmanager/how-to/define-work#constraints) لجدولة المهام لتنبيه المستخدم
+
+# الشاشة الرئيسية
+<img src="screenshots/screenshot_1.png" heigth="480" width="270"/>
+
+# الشاشة الفرعية
+<img src="screenshots/screenshot_2.png" heigth="480" width="270"/>
+<img src="screenshots/screenshot_3.png" heigth="480" width="270"/>
